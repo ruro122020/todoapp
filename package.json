@@ -1,0 +1,11 @@
+{
+  "name": "item-list",
+  "version": "1.0.0",
+  "description": "Simple item list project. Using Vanilla javascript, jquery, and boostrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

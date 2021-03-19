@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=yes"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Container wrap css style-->
+    <link rel="stylesheet" href="index.css" />
+    <!--pixal animation css stylesheet-->
+    <link rel="stylesheet" href="graphics/css/style.css" />
+    <!--bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <!--google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat+Brush"
+      rel="stylesheet"
+    />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div id="container-wrap">
+      <h1>Item List</h1>
+
+      <div class="btn-textbox">
+        <button class="btn btn-success" id="add-button">ADD</button>
+        <input
+          id="add-input-text"
+          type="text"
+          placeholder="type for pixie dust . . ."
+        />
+      </div>
+      <div class="btn-textbox">
+        <button class="btn btn-secondary" id="change-button">CHANGE</button>
+        <input
+          id="change-input-text"
+          type="text"
+          placeholder="type for pixie dust . . ."
+        />
+      </div>
+      <div id="delete-toggle-buttons">
+        <div id="delete">
+          <button class="btn btn-danger" id="delete-button">DELETE</button>
+        </div>
+        <div id="toggle-all">
+          <button class="btn btn-info" id="toggle-all-button">TOGGLE ALL</button>
+        </div>
+      </div>
+      <div id="todo-list-container"><ul class="todo-list"></ul></div>
+    </div>
+    <!--Jquery-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!--mechanics-->
+    <script type="text/javascript" src="index.js"></script>
+    <!--Pixal Graphics-->
+    <script type="text/javascript" src="graphics.js"></script>
+    <script type="text/javascript" src="graphics/js/index.js"></script>
+    
+  </body>
+</html>

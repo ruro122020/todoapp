@@ -1,0 +1,63 @@
+/* general style css file  */
+body {
+  margin: 100%;
+  background: url(pictures/british-columbia-3787200_1920.jpg) no-repeat center bottom;
+  background-size: cover;
+}
+
+#container-wrap {
+  margin: 10% 40%;
+  font-family: 'Caveat Brush', cursive;
+}
+
+.todo-list {
+  list-style: none;
+
+ 
+}
+
+
+.todo-list li span{
+  /* background: teal; */
+  font-size: 1.3em;
+  padding: .2em;
+  color: teal;
+  border-radius: .2em;
+  text-align: center;
+  
+}
+/*li inputs checkbox*/
+input[type=checkbox] {
+ zoom: 1.0;
+ margin-top: .1em;
+}
+/*li inputs*/
+#container-wrap .todo-list input {
+  float: none;
+}
+
+/*title style*/
+#container-wrap h1 {
+  color: lightseagreen;
+  margin-left: 1.0em;
+}
+/*change button*/
+#container-wrap #change-button {
+  float: left;
+
+}
+
+#container-wrap button {
+  color: lightskyblue;
+}
+
+#delete-toggle-buttons {
+  margin-top: 2.5em;
+}
+
+#delete-toggle-buttons #delete {
+  float: left;
+}
+
+
+

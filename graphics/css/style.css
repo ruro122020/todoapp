@@ -1,0 +1,65 @@
+/*style for pixie dust*/
+/*inputs here are the inputs by the buttons. Not the inputs created in the li*/
+html, body {
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+input{
+  border: 2px solid turquoise;
+  font-size: 18em;
+  padding: .25em .5em .3125em;
+  color: turquoise;
+  border-radius: .25em;
+  background: rgb(160, 160, 160);
+  -webkit-transition: all .100s;
+  transition: all .100s;
+  font-family: 'Caveat Brush', cursive;
+  float:left;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 .125em transparent;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: .5;
+}
+
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 .125em transparent;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+input:focus::-moz-placeholder {
+  opacity: .5;
+}
+
+:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 .125em transparent;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+input:focus:-ms-input-placeholder {
+  opacity: .5;
+}
+
+
+
+
